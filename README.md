@@ -1,20 +1,54 @@
-# MustardCoin
-Yes this is exactly what you think it is. This is a bitcoin fork altcoin based around the meme about mustard.
+🟡 MustardCoin (MTC)
+Yes, it’s exactly what you think it is — a Bitcoin fork meme coin based entirely around the legendary mustard meme. 
 
-You can download the source code and software from this link https://www.mediafire.com/folder/1nx9no4h8u5rh/MustardCoin
+📦 Download
+Grab everything you need here:
+🔗 MustardCoin MediaFire Folder
 
-To host a public node all you need to do is port forward the port 8591 and download the zip called bin and extract it then run the mustardcoin node by opening the file called runnode.bat in the extracted folder
-then you can share your public ip and port to let other peers connect to your node.
+🚀 How to Run a Node
+📡 Public Node
+Port Forward port 8591 on your router.
 
-Or if you aren't going to host a public node just look for a file called mustardcoin.conf in https://www.mediafire.com/folder/1nx9no4h8u5rh/MustardCoin and copy and paste it into 
-the directory C:\Users\(youruser)\AppData\Local\MustardCoin and inside the conf file add a line called -addnode=(a public node ip:port) to connect to a peer and also make sure to change the rpc password then run the runnode.bat or open the mustardcoin-qt.exe to open the mustardcoin GUI.
+Download the bin.zip from the MediaFire Folder and extract it.
 
-To mine all you have you to do is go to https://www.mediafire.com/folder/1nx9no4h8u5rh/MustardCoin and look for a zip called cpuminer-opt
-then after download it and extract it to wherever you feel like. Then go back to https://www.mediafire.com/folder/1nx9no4h8u5rh/MustardCoin
-and look for a file called mustardcoin.conf and copy and paste it into the directory C:\Users\(youruser)\AppData\Local\MustardCoin
-(if you don't have this directory make sure you have run the node via gui or cli at least one time) then open the conf file and change the
-rpc password. Now just go back to the cpuminer-opt extracted folder and edit the run.bat with notepad and go ahead and change the rpc password 
-to the rpc password in your mustardcoin.conf and also change the mtc address to one you got from your wallet in the gui or cli. Now just
-save the run.bat changes and then open the run.bat which should start mining as long as you keep the mustardcoin node active via 
-cli or gui. if you get a error talking about mustardcoin not connecting then just make sure the node is active and wait it out it should just
-go away after a bit.
+Run the node by opening runnode.bat from the extracted folder.
+
+Share your public IP and port (8591) with others so they can connect to your node.
+
+🔒 Private Node / Peer Mode
+Download or create a file named mustardcoin.conf (also available in the MediaFire folder).
+
+Place it in:
+C:\Users\<your-username>\AppData\Local\MustardCoin
+
+Add this line to the mustardcoin.conf file (replace with a real IP and port):
+
+ini
+Copy
+Edit
+addnode=<public-node-ip>:8591
+Also make sure to set a secure rpcpassword in the .conf file.
+
+Launch runnode.bat or open mustardcoin-qt.exe to run the wallet/node GUI.
+
+⛏️ How to Mine MustardCoin
+Download cpuminer-opt.zip from the MediaFire Folder and extract it anywhere.
+
+Make sure you've already run the MustardCoin node at least once (GUI or CLI), so it generates the config directory.
+
+Copy mustardcoin.conf to:
+C:\Users\<your-username>\AppData\Local\MustardCoin
+
+Edit the mustardcoin.conf file to set a unique rpcpassword.
+
+Open the run.bat file in the cpuminer-opt folder using Notepad.
+
+Update:
+
+The rpcpassword to match the one in mustardcoin.conf
+
+The wallet address (mtc...) to one you control (you can generate it from the GUI/CLI)
+
+Save and run run.bat — mining should start automatically.
+
+If it errors with connection issues, ensure your node is running and give it a moment.
