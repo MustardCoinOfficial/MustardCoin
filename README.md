@@ -8,9 +8,9 @@ Yes, it’s exactly what you think it is — a Bitcoin fork meme coin based enti
 
 Grab everything you need here:  
 🔗 [MustardCoin MediaFire Folder](https://www.mediafire.com/folder/1nx9no4h8u5rh/MustardCoin)
+---
 (If you are wondering as to why I didn't just put the files in this repo its because some of 
 the files are over 100mb)
----
 
 ## 🚀 How to Run a Node
 
