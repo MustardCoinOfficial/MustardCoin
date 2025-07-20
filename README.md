@@ -28,7 +28,7 @@ Grab everything you need here:
 
 1. Download a file named `mustardcoin.conf` (available in the MediaFire folder).
 2. Place it in:  C:\Users<your-username>\AppData\Local\MustardCoin
-3. In `mustardcoin.conf`, add a line like this to connect to a peer: -addnode=<public-node-ip>:8591
+3. In `mustardcoin.conf`, add a line like this to connect to a peer: -addnode=(public-node-ip):8591
 4. Set a secure `rpcpassword` in the `.conf` file.
 5. Launch `runnode.bat` or double-click `mustardcoin-qt.exe` to start the node or GUI.
 
