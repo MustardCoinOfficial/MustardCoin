@@ -1,8 +1,8 @@
 # 🟡 MustardCoin (MTC)
 
 Yes, it’s exactly what you think it is — a Bitcoin fork meme coin based entirely around the legendary mustard meme.
-(By The Way Before You Start Reading, This Guide Is Meant For Windows Devices Only)
 ---
+(By The Way Before You Start Reading, This Guide Is Meant For Windows Devices Only)
 
 ## 📦 Download
 
