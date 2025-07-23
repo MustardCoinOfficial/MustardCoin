@@ -33,7 +33,7 @@ Grab everything you need here:
    rpcpassword=your_secure_password
    ```
 8. Save the file.
-9. Reopen the node by running `runnode.bat` (or `mustardcoin-qt.exe` directly).
+9. Reopen the node by running `mustardcoin-qt.exe`.
 10. Share your **public IP** and port (`8591`) with others so they can connect to your node.
 
 ---
@@ -67,7 +67,7 @@ Grab everything you need here:
 6. Update the following in `run.bat`:
    - Match the `rpcpassword` to your config
    - Replace the MTC address with one from your MustardCoin wallet
-7. Save the file and double-click `run.bat` to begin mining!
+7. Save the file and double-click `mustardcoin-qt.exe` to begin mining!
 
 > **Note:** If you see an error about the node not connecting, make sure the node is running and wait a few seconds.
 
